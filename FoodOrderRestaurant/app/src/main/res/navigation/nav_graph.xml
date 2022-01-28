@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragment_main"
+    android:id="@+id/nav_graph">
+
+        <fragment
+            android:id="@+id/fragment_food_list"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.FoodListFragment"
+            android:label="@string/food_list"
+            tools:layout="@layout/fragment_food_list" />
+
+        <fragment
+            android:id="@+id/fragment_history"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.HistoryFragment"
+            android:label="@string/menu_history"
+            tools:layout="@layout/fragment_history" />
+
+        <fragment
+            android:id="@+id/fragment_info"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.InfoFragment"
+            android:label="@string/menu_info"
+            tools:layout="@layout/fragment_info" />
+
+        <fragment
+            android:id="@+id/fragment_main"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.HomeFragment"
+            android:label="@string/menu_main"
+            tools:layout="@layout/fragment_home" />
+
+        <fragment
+            android:id="@+id/fragment_payment"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.PaymentFragment"
+            android:label="@string/menu_payment"
+            tools:layout="@layout/fragment_payment" />
+
+        <fragment
+            android:id="@+id/fragment_printer"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.PrinterFragment"
+            android:label="@string/menu_printer"
+            tools:layout="@layout/fragment_printer" />
+
+        <fragment
+            android:id="@+id/fragment_report"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.ReportFragment"
+            android:label="@string/menu_report"
+            tools:layout="@layout/fragment_report" />
+
+        <fragment
+            android:id="@+id/fragment_table_list"
+            android:name="com.foodorder.fooder.restaurantorder.fragments.TableListFragment"
+            android:label="@string/table_list"
+            tools:layout="@layout/fragment_table_list" />
+
+</navigation>

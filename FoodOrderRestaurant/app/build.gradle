@@ -1,0 +1,125 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.foodorder.fooder.restaurantorder"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+        vectorDrawables.useSupportLibrary = true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += [
+                        "room.schemaLocation"  : "$projectDir/schemas".toString(),
+                        "room.incremental"     : "true",
+                        "room.expandProjection": "true"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/LICENSE.md'
+        exclude 'javamoney.properties'
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+        exclude 'META-INF/gradle/incremental.annotation.processors'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+
+// hilt
+    implementation 'androidx.hilt:hilt-navigation-fragment:1.0.0'
+    implementation 'androidx.hilt:hilt-compiler:1.0.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    kapt 'androidx.hilt:hilt-compiler:1.0.0'
+    implementation "com.google.dagger:hilt-android:2.37"
+    implementation "com.google.dagger:hilt-android-compiler:2.37"
+    kapt "com.google.dagger:hilt-android-compiler:2.37"
+    implementation 'androidx.hilt:hilt-work:1.0.0'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0'
+
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
+    implementation "androidx.room:room-ktx:2.3.0"
+    // To use Kotlin annotation processing tool (kapt)
+    kapt "androidx.room:room-compiler:2.3.0"
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    // analytic firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.2')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    // Remote Config
+    // Declare the dependencies for the Remote Config and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-config-ktx'
+
+    // crashlytics firebase
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+
+    // 3th library
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation "com.google.code.gson:gson:2.8.7"
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation "me.grantland:autofittextview:0.2.+"
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}

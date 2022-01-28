@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.foodorder.fooder.restaurantorder.views.ToolBarCustom
+        android:id="@+id/toolbarCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        app:isBackShown="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleBar="@string/accept_payment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_00"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_05"
+        app:layout_constraintBottom_toTopOf="@+id/cl_payment_now"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarCustom">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_bill_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_bill_history"
+                android:layout_width="@dimen/dp_32"
+                android:layout_height="@dimen/dp_32"
+                android:padding="@dimen/dp_05"
+                android:tint="@color/primary3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_bill" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_more_history"
+                android:layout_width="@dimen/dp_32"
+                android:layout_height="@dimen/dp_32"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_arrow_drop_down" />
+
+            <TextView
+                android:id="@+id/tv_title_history"
+                style="@style/AppTheme.TextView.Title2"
+                android:layout_width="@dimen/dp_00"
+                android:layout_height="@dimen/dp_00"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/title_food_order_added"
+                android:textColor="@color/primary3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/img_more_history"
+                app:layout_constraintStart_toEndOf="@+id/img_bill_history"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_data_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_payment_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary8"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_payment_now"
+            style="@style/ButtonScreenDetail"
+            android:layout_width="@dimen/dp_00"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_bottom_continue_enable"
+            android:text="@string/button_payment"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

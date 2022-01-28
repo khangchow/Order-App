@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.foodorder.fooder.restaurantorder.views.ToolBarCustom
+            android:id="@+id/toolbarCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?actionBarSize"
+            app:isBackShown="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleBar="@string/button_add_food" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_data"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_00"
+            app:layout_constraintBottom_toTopOf="@+id/cl_bottom_order"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarCustom"
+            android:padding="@dimen/dp_05" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/view_bottom_order"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_70"
+            android:background="@color/primary8"
+            android:clickable="false"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_bottom_order"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_70"
+            android:background="@color/primary8"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="@color/neutral_yellow_3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_cart"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginStart="@dimen/dp_15"
+                android:padding="@dimen/dp_05"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_shopping_cart"
+                app:tint="@color/sematic1" />
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/tv_number_cart"
+                style="@style/AppTheme.TextView.SmallText2"
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:layout_marginStart="@dimen/dp_nev_5"
+                android:layout_marginTop="@dimen/dp_nev_10"
+                android:background="@drawable/bg_circle_number"
+                android:gravity="center"
+                android:lines="1"
+                android:padding="@dimen/dp_02"
+                android:textColor="@color/primary8"
+                app:layout_constraintStart_toEndOf="@+id/img_cart"
+                app:layout_constraintTop_toTopOf="@+id/img_cart"
+                tools:text="909+" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_sum"
+                style="@style/AppTheme.TextView.TextField1"
+                android:layout_width="@dimen/dp_00"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_15"
+                android:layout_marginEnd="@dimen/dp_15"
+                android:gravity="end"
+                android:textAllCaps="true"
+                android:textColor="@color/sematic1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_order"
+                app:layout_constraintStart_toEndOf="@+id/tv_number_cart"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="100 VND" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_order"
+                style="@style/AppTheme.TextView.TextField1"
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="match_parent"
+                android:background="@color/sematic1"
+                android:gravity="center"
+                android:text="@string/accept"
+                android:textAllCaps="true"
+                android:textColor="@color/primary8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?actionBarSize"
+    android:background="@color/toolbar_bg">
+
+    <LinearLayout
+        android:id="@+id/llActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/dp_05"
+            app:srcCompat="@drawable/ic_search" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgDone"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/dp_05"
+            app:srcCompat="@drawable/ic_done" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgMore"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/dp_05"
+            app:srcCompat="@drawable/ic_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llToolbar"
+        android:layout_width="@dimen/dp_00"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toStartOf="@+id/llActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/dp_05"
+            app:srcCompat="@drawable/ic_arrow_back" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitleBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_20"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/llSearchView"
+        android:layout_width="@dimen/dp_00"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/llActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgBackSearch"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/dp_05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow_back" />
+
+        <com.foodorder.fooder.restaurantorder.views.ClearableEditText
+            android:id="@+id/et_search"
+            android:layout_width="@dimen/dp_00"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/neutral4"
+            android:textSize="@dimen/sp_20"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgBackSearch"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--New font -->
+    <style name="AppTheme.TextView.Heading1">
+        <item name="android:textSize">@dimen/sp_25</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.Heading2">
+        <item name="android:textSize">@dimen/sp_21</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <!--Title-->
+    <style name="AppTheme.TextView.Title1">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/sp_19</item>
+    </style>
+
+    <style name="AppTheme.TextView.Title2">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="AppTheme.TextView.Title3">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="AppTheme.TextView.subTitle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+     <style name="AppTheme.TextView.ButtonShape">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+    </style>
+
+    <style name="AppTheme.TextView.ButtonTextLink">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <!--Text Field-->
+    <style name="AppTheme.TextView.TextField1">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="AppTheme.TextView.TextField2">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <!--Caption-->
+    <style name="AppTheme.TextView.Caption1">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="AppTheme.TextView.Caption2">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <!--Body-->
+    <style name="AppTheme.TextView.Body1">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="AppTheme.TextView.Body2">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <!--Icon-->
+    <style name="AppTheme.TextView.Icon1">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="AppTheme.TextView.Icon2">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <!--Noti Text-->
+    <style name="AppTheme.TextView.NotiText">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <!--Noti Number-->
+    <style name="AppTheme.TextView.NotiNumber">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <!--Small Text-->
+    <style name="AppTheme.TextView.SmallText1">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
+
+    <style name="AppTheme.TextView.SmallText2">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+
+    <!--Old font-->
+    <style name="AppTheme.TextView.Heading0">
+        <item name="android:textSize">@dimen/textView_heading_0</item>
+        <item name="android:fontFamily">@font/font_heading_0</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_heading_1_lice_spacing</item>
+    </style>
+
+    <style name="AppTheme.TextView.Heading3">
+        <item name="android:textSize">@dimen/textView_heading_3</item>
+        <item name="android:fontFamily">@font/font_heading_3</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_heading_3_lice_spacing</item>
+    </style>
+
+    <style name="AppTheme.TextView.Heading4">
+        <item name="android:textSize">@dimen/textView_heading_4</item>
+        <item name="android:fontFamily">@font/font_heading_4</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_heading_4_lice_spacing</item>
+    </style>
+
+    <style name="AppTheme.TextView.Heading5">
+        <item name="android:textSize">@dimen/textView_heading_5</item>
+        <item name="android:fontFamily">@font/font_heading_5</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_heading_5_lice_spacing</item>
+    </style>
+
+    <!--Button-->
+    <style name="AppTheme.TextView.Button1">
+        <item name="android:fontFamily">@font/font_button</item>
+        <item name="android:textSize">@dimen/textView_button_1</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_button_1_lice_spacing</item>
+    </style>
+
+    <style name="AppTheme.TextView.Button2">
+        <item name="android:fontFamily">@font/font_button</item>
+        <item name="android:textSize">@dimen/textView_button_2</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_button_2_lice_spacing</item>
+    </style>
+
+
+
+    <!--Link-->
+    <style name="AppTheme.TextView.Link1">
+        <item name="android:clickable">true</item>
+        <item name="android:fontFamily">@font/font_link_1</item>
+        <item name="android:textSize">@dimen/textView_link_1</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_link_1_lice_spacing</item>
+    </style>
+
+    <!--Noti-->
+    <style name="AppTheme.TextView.noti1">
+        <item name="android:fontFamily">@font/font_noti_1</item>
+        <item name="android:textSize">@dimen/textView_noti_1</item>
+        <item name="android:lineSpacingExtra">@dimen/textView_noti_1_lice_spacing</item>
+    </style>
+
+
+    <!--Screen account detail-->
+    <style name="account_detail_header" parent="AppTheme.TextView.subTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary2</item>
+    </style>
+
+    <style name="account_detail_key" parent="AppTheme.TextView.Caption2">
+        <item name="android:textColor">@color/neutral2</item>
+    </style>
+
+    <style name="account_detail_value" parent="AppTheme.TextView.Title2">
+        <item name="android:textColor">@color/neutral3</item>
+    </style>
+
+    <style name="account_detail_change_avar" parent="AppTheme.TextView.subTitle">
+        <item name="android:textColor">@color/primary6</item>
+    </style>
+
+
+</resources>

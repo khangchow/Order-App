@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--100% — FF    99% — FC    98% — FA    97% — F7    96% — F5    95% — F2    94% — F0    93% — ED
+    92% — EB    91% — E8    90% — E6    89% — E3    88% — E0    87% — DE    86% — DB    85% — D9
+    84% — D6    83% — D4    82% — D1    81% — CF    80% — CC    79% — C9    78% — C7    77% — C4
+    76% — C2    75% — BF    74% — BD    73% — BA    72% — B8    71% — B5    70% — B3    69% — B0
+    68% — AD    67% — AB    66% — A8    65% — A6    64% — A3    63% — A1    62% — 9E    61% — 9C
+    60% — 99    59% — 96    58% — 94    57% — 91    56% — 8F    55% — 8C    54% — 8A    53% — 87
+    52% — 85    51% — 82    50% — 80    49% — 7D    48% — 7A    47% — 78    46% — 75    45% — 73
+    44% — 70    43% — 6E    42% — 6B    41% — 69    40% — 66    39% — 63    38% — 61    37% — 5E
+    36% — 5C    35% — 59    34% — 57    33% — 54    32% — 52    31% — 4F    30% — 4D    29% — 4A
+    28% — 47    27% — 45    26% — 42    25% — 40    24% — 3D    23% — 3B    22% — 38    21% — 36
+    20% — 33    19% — 30    18% — 2E    17% — 2B    16% — 29    15% — 26    14% — 24    13% — 21
+    12% — 1F    11% — 1C    10% — 1A    9% — 17    8% — 14    7% — 12    6% — 0F    5% — 0D
+    4% — 0A    3% — 08    2% — 05    1% — 03    0% — 00-->
+
+    <color name="toolbar_bg">#3f51b5</color>
+
+    <color name="colorPrimary">#3781F1</color>
+    <color name="colorPrimaryDark">#133370</color>
+    <color name="colorAccent">#01989A</color>
+
+    <!--    Drawable-->
+    <color name="common_border">#EAEBED</color>
+
+    <!--    Text-->
+    <color name="common_text_color">@color/primary2</color>
+
+    <!--Icon-->
+    <color name="common_icon_color">#061225</color>
+
+    <!--System-->#70D2DD
+    <color name="mtrl_textinput_default_box_stroke_color">@color/neutral4</color>
+
+    <!--List Color-->
+    <color name="accessibility_background_1">#065BAA</color>
+    <color name="accessibility_background_2">#118F57</color>
+    <color name="accessibility_background_3">#FBB040</color>
+    <color name="accessibility_light_background">#E3ECFB</color>
+    <color name="accessibility_dark_background">#000000</color>
+    <color name="black">#000000</color>
+
+    <color name="primary1">#072551</color>
+    <color name="primary2">#0B3A80</color>
+    <color name="primary3">#6093C2</color>
+    <color name="primary4">#065BAA</color>
+    <color name="primary5">#085BB4</color>
+    <color name="primary6">#CCEBFD</color>
+    <color name="primary7">#DFF1FF</color>
+    <color name="primary8">#FFFFFF</color>
+    <color name="primary9">#7DD4F8</color>
+    <color name="primary10">#CCEBFD</color>
+    <color name="primary11">#E8F2FF</color>
+    <color name="primary12">#EDF4FF</color>
+    <color name="primary13">#003183</color>
+    <color name="primary14">#0C509C</color>
+    <color name="primary15">#003463</color>
+    <color name="primary16">#F5F9FF</color>
+    <color name="primary17">#065BAA</color>
+    <color name="primary18">#118F57</color>
+    <color name="primary19">#198DE0</color>
+
+    <color name="sematic1">#F96057</color>
+    <color name="sematic2">#FBA09A</color>
+    <color name="sematic3">#F8CE52</color>
+    <color name="sematic4">#FBE297</color>
+    <color name="sematic5">#B470D4</color>
+    <color name="sematic6">#D2A9E5</color>
+
+    <color name="semantic_red_1">#DF0019</color>
+    <color name="semantic_red_2">#FF9196</color>
+    <color name="semantic_red_3">#FFC2C5</color>
+    <color name="semantic_red_4">#F8CDCF</color>
+    <color name="semantic_orange_1">#F9AF49</color>
+    <color name="semantic_orange_2">#FFC575</color>
+    <color name="semantic_orange_3">#999997</color>
+    <color name="semantic_yellow_1">#FFC553</color>
+    <color name="semantic_yellow_2">#FAEDCB</color>
+    <color name="semantic_yellow_3">#F6F6DD</color>
+    <color name="semantic_violet_1">#594DDE</color>
+    <color name="semantic_violet_2">#909DD6</color>
+    <color name="semantic_violet_3">#ADB5DF</color>
+    <color name="semantic_violet_4">#D3D1F6</color>
+    <color name="semantic_violet_5">#D5DAEF</color>
+    <color name="semantic_green_0">#02B995</color>
+    <color name="semantic_green_1">#B1E7E9</color>
+    <color name="semantic_green_2">#CEFFFE</color>
+    <color name="semantic_green_3">#C9E4DE</color>
+    <color name="semantic_green_4">#E0F5EB</color>
+    <color name="semantic_mint_1">#02DAF1</color>
+    <color name="semantic_mint_2">#7AAEC7</color>
+
+    <color name="neutral1">#BEC1D0</color>
+    <color name="neutral2">#555555</color>
+    <color name="neutral3">#949BA1</color>
+    <color name="neutral4">#B9C1C6</color>
+    <color name="neutral5">#DDE6EC</color>
+    <color name="neutral6">#EBEFFA</color>
+    <color name="neutral7">#EEF4FE</color>
+    <color name="neutral8">#F8FBFF</color>
+    <color name="neutral_purple">#3E4355</color>
+
+    <color name="neutral_color_yellow_1">#525255</color>
+    <color name="neutral_color_yellow_2">#727272</color>
+
+    <color name="neutral_blue_1">#BEC1D0</color>
+    <color name="neutral_blue_2">#D4DBE8</color>
+    <color name="neutral_blue_3">#EBEFFA</color>
+    <color name="neutral_blue_4">#F0F6FF</color>
+    <color name="neutral_blue_5">#F5F9FF</color>
+
+    <color name="neutral_purple_1">#3E4355</color>
+    <color name="neutral_purple_2">#565A6A</color>
+
+    <color name="neutral_green_1">#242525</color>
+
+    <color name="neutral_yellow_1">#525255</color>
+    <color name="neutral_yellow_2">#727272</color>
+    <color name="neutral_yellow_3">#82868B</color>
+    <color name="neutral_yellow_4">#949BA1</color>
+    <color name="neutral_yellow_5">#B9C1C6</color>
+    <color name="neutral_yellow_6">#D6D8D8</color>
+    <color name="neutral_yellow_7">#DDE1E4</color>
+    <color name="neutral_yellow_8">#DDE6EC</color>
+    <color name="neutral_yellow_9">#ECF3F9</color>
+    <color name="neutral_yellow_10">#EEF7FE</color>
+    <color name="neutral_yellow_11">#F3FAFE</color>
+
+    <color name="accent1">#014A43</color>
+    <color name="accent2">#01775D</color>
+    <color name="accent3">#34927D</color>
+    <color name="accent4">#E6F9F5</color>
+    <color name="accent5">#70D2DD</color>
+
+    <color name="shades1">#003463</color>
+    <color name="shades2">#6093C2</color>
+    <color name="shades3">#AECCF0</color>
+    <color name="shades4">#EAF6FF</color>
+    <color name="shades5">#6A9DD1</color>
+    <color name="shades6">#F0F6FF</color>
+    <color name="shades7">#C9DDF2</color>
+    <color name="shades8">#E3ECFB</color>
+
+    <color name="opacity_solid">#242525</color>
+    <color name="opacity_blur_1_start">#4D1C82E1</color>
+    <color name="opacity_blur_1_center">#4D43C58B</color>
+    <color name="opacity_blur_1_end">#4DFFCA7B</color>
+    <color name="opacity_blur_2">#52000000</color>
+    <color name="opacity_blur_3">#5CFFFFFF</color>
+    <color name="opacity_blur_4">#26FFFFFF</color>
+
+    <color name="gradient_main_1_start">#065BAA</color>
+    <color name="gradient_main_1_center">#118F57</color>
+    <color name="gradient_main_1_end">#FBB040</color>
+    <color name="gradient_main_2_start">#118F57</color>
+    <color name="gradient_main_2_end">#065BAA</color>
+    <color name="gradient_main_3_start">#065BAA</color>
+    <color name="gradient_main_3_end">#118F57</color>
+    <color name="gradient_main_5_top">#118F57</color>
+    <color name="gradient_main_5_bottom">#065BAA</color>
+    <color name="gradient_main_6_start">#00785F</color>
+    <color name="gradient_main_6_end">#004A41</color>
+    <color name="gradient_main_7_start">#01775D</color>
+    <color name="gradient_main_7_end">#FAAE4C</color>
+
+    <color name="gradient_extra_1_start">#1C82E1</color>
+    <color name="gradient_extra_1_center">#43C58B</color>
+    <color name="gradient_extra_1_end">#FFCA7B</color>
+    <color name="gradient_extra_2_start">#FD8547</color>
+    <color name="gradient_extra_2_end">#FFBA7A</color>
+    <color name="gradient_extra_3_start">#2990DA</color>
+    <color name="gradient_extra_3_end">#68B5EC</color>
+    <color name="gradient_extra_4_top">#F5D43A</color>
+    <color name="gradient_extra_4_bottom">#F5D43A</color>
+    <color name="gradient_extra_5_start">#177ECC</color>
+    <color name="gradient_extra_5_end">#88B8E9</color>
+    <color name="gradient_extra_6_start">#D2E4F9</color>
+    <color name="gradient_extra_6_end">#E1EAF9</color>
+
+    <color name="gradient_1_start">#0C529C</color>
+    <color name="gradient_1_end">#01989A</color>
+
+    <color name="gradient_2_start">#0D418C</color>
+    <color name="gradient_2_end">#0072C7</color>
+
+    <color name="gradient_3_start">#0066C6</color>
+    <color name="gradient_3_end">#98D4F7</color>
+
+    <color name="gradient_4_start">#1D4E9B</color>
+    <color name="gradient_4_end">#47A1F0</color>
+
+    <color name="white">#FAFAFA</color>
+    <color name="colorBlue">#2b44ff</color>
+    <color name="h1black">#323542</color>
+    <color name="editTextBottomHint">#7c8ba2</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="semantic7">#32D395</color>
+    <color name="semantic8">#FF4A5A</color>
+    <color name="semantic9">#F59960</color>
+
+    <color name="border1">#EBEFFA</color>
+
+    <color name="colorTransactionHistoryChartGridLine">#CCC7C7C7</color>
+    <color name="line_divider_color">@color/neutral5</color>
+    <color name="colorBlueMidnight">#003366</color>
+    <color name="colorPurple">#6c63ff</color>
+    <color name="login_line_divider">#E1E1E1</color>
+    <color name="mid_grey">#6D6D71</color>
+    <color name="mtrl_error">@color/semantic_red_1</color>
+
+    <color name="color_text_edit">#065BAA</color>
+    <color name="color_border">#3781F1</color>
+    <color name="color_hint_text_edit">#B9C1C6</color>
+    <color name="color_hint_top_text_edit">#949BA1</color>
+    <color name="color_text_edit_disable">#82868B</color>
+    <color name="color_orange">#E91E63</color>
+    <color name="color_on">#9C27B0</color>
+    <color name="color_chat">#673AB7</color>
+</resources>

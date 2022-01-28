@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Đặt Món</string>
+    <string name="title_upgrade_app">Cập nhật Ứng dụng</string>
+    <string name="message_upgrade_app">Đã có bản cập nhật sửa lỗi ứng dụng. Vui lòng cập nhật phiên bản mới nhất để tiếp tục sử dụng. Cảm ơn</string>
+    <string name="button_upgrade">Liên hệ ngay</string>
+    <string name="menu_main">Trang chủ</string>
+    <string name="food_list">Danh sách Món ăn</string>
+    <string name="table_list">Danh sách Bàn</string>
+    <string name="menu_history">Lịch sử</string>
+    <string name="menu_report">Báo cáo Thống kê</string>
+    <string name="menu_payment">Phương thức Thanh Toán</string>
+    <string name="menu_info">Liên hệ</string>
+    <string name="menu_printer">Máy in</string>
+    <string name="update">Cập Nhật</string>
+    <string name="delete">Xóa</string>
+    <string name="add_new">Thêm Mới</string>
+    <string name="food_name">Tên Món Ăn</string>
+    <string name="table_name">Tên Bàn</string>
+    <string name="food_price">Giá Bán</string>
+    <string name="food_status">Trạng Thái</string>
+    <string name="edit_food">Chỉnh sửa Món Ăn</string>
+    <string name="edit_table">Chỉnh sửa Bàn</string>
+    <string name="title_add_food">Thêm mới Món Ăn</string>
+    <string name="title_order_confirm">Món Đã Gọi</string>
+    <string name="button_add_food">Gọi món</string>
+    <string name="add_table">Thêm mới Bàn</string>
+    <string name="search_hint">Tìm kiếm</string>
+    <string name="edit_registration">tag_clear</string>
+    <string name="format_remark_remain">Còn lại %s ký tự</string>
+    <string name="delete_title_food">Thông báo</string>
+    <string name="delete_message_food">Quý khách có chắc chắn muốn xoá Món Ăn không?</string>
+    <string name="delete_message_table">Quý khách có chắc chắn muốn xoá Bàn không?</string>
+    <string name="yes_button">Đồng ý</string>
+    <string name="cancel_button">Hủy bỏ</string>
+    <string name="delete_food_success">Xóa Món Ăn Thành Công</string>
+    <string name="delete_table_success">Xóa Bàn Thành Công</string>
+    <string name="create_new_success">Thêm mới thành công</string>
+    <string name="update_success">Cập nhật thành công</string>
+    <string name="open_camera">Mở Máy Ảnh</string>
+    <string name="open_gallery">Mở Thư Viện</string>
+    <string name="title_image_screen">Chọn Ảnh</string>
+    <string name="delete_title_table">Thông báo</string>
+    <string name="accept">Xác Nhận</string>
+    <string name="accept_payment">Xác Nhận Thanh Toán</string>
+    <string name="move_table">Chuyển Bàn</string>
+    <string name="title_time_start">"Thời gian: %s"</string>
+    <string name="button_payment">Thanh toán</string>
+    <string name="free_status_table">Bàn trống</string>
+    <string name="title_bill">Hóa đơn thanh toán</string>
+    <string name="total_bill">Tổng hóa đơn:</string>
+    <string name="receive_money">Số tiền nhận:</string>
+    <string name="amount_of_change">Số tiền thừa:</string>
+    <string name="quantity">Số lượng</string>
+    <string name="total_price">Thành tiền</string>
+    <string name="order_food_success">Đặt món thành công</string>
+    <string name="title_food_order_added">Món đã đặt</string>
+    <string name="title_food_order_processing">Món Đang Chọn</string>
+    <string name="sum_bill_draft">Tổng Tiền Tạm Tính:</string>
+    <string name="year">Năm</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="customize">Chọn tháng</string>
+    <string name="filter_month">Chọn tháng</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="change_table">Thay đổi bàn</string>
+    <string name="ask_confirm_change_table">\"Bạn có chắc chắn muốn chuyển bàn sang \"</string>
+    <string-array name="filter">
+        <item>Ngày</item>
+        <item>Tuần gần nhất</item>
+        <item>Tháng gần nhất</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+</resources>
